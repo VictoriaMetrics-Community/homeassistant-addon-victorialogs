@@ -1,3 +1,7 @@
+<p align="center">
+   <img src="logo.jpg" width="300" alt="Home Assistant Add-on VictoriaLogs Database for logs">
+</p>
+
 # Home Assistant Add-on VictoriaLogs Database for logs
 
 [VictoriaLogs](https://docs.victoriametrics.com/victorialogs/) is [open source](https://github.com/VictoriaMetrics/VictoriaMetrics/tree/master/app/victoria-logs) user-friendly database for logs from [VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics/).
