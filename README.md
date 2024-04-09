@@ -11,7 +11,7 @@ This add-on makes it easy to run a VictoriaLogs on Home Assistant OS on ARM64 sy
 ## VictoriaLogs provides the following key features:
   
 - [VictoriaLogs](https://docs.victoriametrics.com/victorialogs/) can accept logs from popular log collectors. See [these docs](https://docs.victoriametrics.com/victorialogs/data-ingestion/).
-- Victori[VictoriaLogs](https://docs.victoriametrics.com/victorialogs/)aLogs is much easier to set up and operate compared to Elasticsearch and Grafana Loki. See [these docs](https://docs.victoriametrics.com/victorialogs/quickstart/).
+- [VictoriaLogs](https://docs.victoriametrics.com/victorialogs/) is much easier to set up and operate compared to Elasticsearch and Grafana Loki. See [these docs](https://docs.victoriametrics.com/victorialogs/quickstart/).
 -   [VictoriaLogs](https://docs.victoriametrics.com/victorialogs/) provides easy yet powerful query language with full-text search capabilities across all the [log fields](https://docs.victoriametrics.com/victorialogs/keyconcepts/#data-model) - see [LogsQL docs](https://docs.victoriametrics.com/victorialogs/logsql/).
 - [VictoriaLogs](https://docs.victoriametrics.com/victorialogs/) can be seamlessly combined with good old Unix tools for log analysis such as `grep`, `less`, `sort`, `jq`, etc. See [these docs](https://docs.victoriametrics.com/victorialogs/querying/#command-line) for details.
 - [VictoriaLogs](https://docs.victoriametrics.com/victorialogs/) capacity and performance scales linearly with the available resources (CPU, RAM, disk IO, disk space). It runs smoothly on both Raspberry PI and a server with hundreds of CPU cores and terabytes of RAM.
