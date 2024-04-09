@@ -1,0 +1,35 @@
+name: VictoriaLogs
+version: "0.0.1"
+slug: victoria_logs
+description: The Simple & Reliable Logs Solution That Scales
+webui: "http://[HOST]:[PORT:9428]/"
+ingress: true
+ingress_port: 9428
+ingress_entry: /select/vmui
+# host_network: true
+ports:
+  9428/tcp: 9428
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+#  - i386
+init: false
+map:
+  - share:rw
+  - ssl
+options:
+  retention: "99y"
+  additionalArguments: ""
+  enableHTTPAuth: false
+  username: ""
+  password: ""
+  homeassistantUrl: ""
+schema:
+  retention: "str?"
+  additionalArguments: "str?"
+  enableHTTPAuth: bool
+  username: "str?"
+  password: "password?"
+  homeassistantUrl: "str?"

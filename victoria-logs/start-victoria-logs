@@ -1,0 +1,17 @@
+#!/usr/bin/with-contenv bashio
+set -e
+
+RETENTION=$(bashio::config 'retention')
+ARGS=$(bashio::config 'additionalArguments')
+
+
+HTTPAUTHARGS=""
+if bashio::config.true 'enableHTTPAuth'
+then
+    bashio::log.info "Use httpAuth for VictoriaLogs"
+    HTTPAUTHARGS="-httpAuth.username=$(bashio::config 'username') -httpAuth.password=$(bashio::config 'password')"
+fi
+
+bashio::log.info "Starting VictoriaLogs with retention set to $RETENTION"
+bashio::log.info "Starting VictoriaLogs with args set to $ARGS"
+"/victoria-logs-prod" "-storageDataPath" "/share/victoria-logs-data" -retentionPeriod $RETENTION $HTTPAUTHARGS $ARGS
