@@ -4,7 +4,7 @@ FROM $BUILD_FROM
 # Copy data for add-on
 COPY start-victoria-logs /
 WORKDIR /share/victoria-logs-data
-ARG VERSION=v0.5.2
+ARG VERSION=v0.20.2-victorialogs
 
 RUN /bin/bash -c 'set -ex && \
     ARCH=$(uname -m) && \
