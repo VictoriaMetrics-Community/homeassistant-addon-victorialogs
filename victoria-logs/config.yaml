@@ -1,5 +1,5 @@
 name: VictoriaLogs
-version: "0.0.6"
+version: "1.2.0"
 slug: victoria_logs
 description: The Simple & Reliable Logs Solution That Scales
 webui: "http://[HOST]:[PORT:9428]/"
