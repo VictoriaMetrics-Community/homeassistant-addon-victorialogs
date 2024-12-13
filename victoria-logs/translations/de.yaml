@@ -1,0 +1,19 @@
+configuration:
+  retention:
+    Name: Datenaufbewahrungsdauer
+    Beschreibung: Die folgenden optionalen Suffixe werden unterstützt - h (Stunde), d (Tag), w (Woche), m (Monat) und (Jahr). Wenn kein Suffix festgelegt ist, wird die Dauer in Monaten gezählt. Die unterstützte Mindestaufbewahrungsdauer beträgt 1d (ein Tag). Der Standardwert ist 7d (sieben Tage).
+  additionalArguments:
+    Name: Zusätzliche Argumente
+    Beschreibung: Definiert zusätzliche Argumente, siehe auch https://github.com/VictoriaMetrics/VictoriaMetrics oder die Victoria Metrics Dokumentation.
+  enableHTTPAuth:
+    Name: Aktiviert HTTPAuth
+    Beschreibung: Wenn den Wert auf "true" gesetzt, werden Username und Passwort als basicAuth/HTTPAuth verwendet.
+  username:
+    Name: Username
+    Description: Username für den basicAuth/HTTPAuth (hat keinen Effekt, wenn basicAuth/HTTPAuth nicht aktiviert ist).
+  password:
+    Name: Passwort
+    Beschreibung: Password für den basicAuth/HTTPAuth (hat keinen Effekt, wenn basicAuth/HTTPAuth nicht aktiviert ist).
+  homeassistantUrl:
+    Name: Home Assistant URL
+    Beschreibung: Home Assistant URL inkl. Port für den Prometheus Scrape (z.B. "homeassistant:8123") (hat keinen Effekt, wenn Prometheus Scrape nicht aktiv ist).
