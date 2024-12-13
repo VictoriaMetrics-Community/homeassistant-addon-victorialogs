@@ -1,0 +1,19 @@
+configuration:
+  retention:
+    nombre: Retención
+    descripción:Se admiten los siguientes sufijos opcionales: h (hora), d (día), w (semana), m (mes), y (año). Si no se especifica el sufijo, la duración se cuenta en meses. El período mínimo de retención admitido es 1d (un día). El valor predeterminado es 7d (siete días).
+  additionalArguments:
+    nombre: Argumentos adicionales
+    descripción: Define argumentos adicionales; consulte también https://github.com/VictoriaMetrics/VictoriaMetrics o la documentación de Victoria Metrics.
+  enableHTTPAuth:
+    nombre: Habilita HTTPAuth
+    descripción: Si el valor se establece en "True", el nombre de usuario y la contraseña se utilizan como basicAuth/HTTPAuth.
+  username:
+    nombre: Username
+    descripción: Nombre de usuario para autenticación básica/autenticación HTTP (no tiene efecto cuando la autenticación básica/autenticación HTTP no está activa).
+  password:
+    nombre: Password
+    descripción: Contraseña para autenticación básica/autenticación HTTP (no tiene efecto si la autenticación básica/HTTPAuth no está activada).
+  homeassistantUrl:
+    nombre: Home Assistant URL
+    descripción: URL de Home Assistant que incluye el puerto para Prometheus Scrape (por ejemplo, "homeassistant:8123") (no tiene ningún efecto si Prometheus Scrape no está activo).
