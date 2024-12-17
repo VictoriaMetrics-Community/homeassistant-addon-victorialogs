@@ -1,8 +1,10 @@
+# Home Assistant Add-on VictoriaLogs Database for logs
+
 <p align="center">
-   <img src="logo.jpg" width="300" alt="Home Assistant Add-on VictoriaLogs Database for logs">
+   <img src="logo.png" width="300" alt="Home Assistant Add-on VictoriaLogs Database for logs">
 </p>
 
-# Home Assistant Add-on VictoriaLogs Database for logs
+[![GitHub license](https://img.shields.io/github/license/VictoriaMetrics/VictoriaMetrics.svg)](https://github.com/VictoriaMetrics-Community/homeassistant-addon-victoriametrics/blob/main/LICENSE) [![Slack](https://img.shields.io/badge/join%20slack-%23victoriametrics-brightgreen.svg)](https://slack.victoriametrics.com/) [![Twitter Follow](https://img.shields.io/twitter/follow/VictoriaMetrics?style=social)](https://x.com/VictoriaMetrics) [![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/VictoriaMetrics?style=social)](https://www.reddit.com/r/VictoriaMetrics/) [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat-squeare&logo=telegram&logoColor=white)](https://t.me/VictoriaMetrics_en)
 
 [VictoriaLogs](https://docs.victoriametrics.com/victorialogs/) is [open source](https://github.com/VictoriaMetrics/VictoriaMetrics/tree/master/app/victoria-logs) user-friendly database for logs from [VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics/).
 
