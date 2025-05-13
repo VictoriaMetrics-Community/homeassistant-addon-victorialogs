@@ -5,7 +5,7 @@ description: The Simple & Reliable Logs Solution That Scales
 webui: "http://[HOST]:[PORT:9428]/"
 ingress: true
 ingress_port: 9428
-ingress_entry: /select/vmui
+ingress_entry: select/vmui
 # host_network: true
 ports:
   9428/tcp: 9428
