@@ -4,6 +4,7 @@
    <img src="logo.png" width="300" alt="Home Assistant Add-on VictoriaLogs Database for logs">
 </p>
 
+![Website](https://img.shields.io/website?url=http%3A%2F%2Fvictoriametrics.community%2F&up_message=VictoriaMetrics.Community&up_color=%23e94600) ![Latest Release](https://img.shields.io/github/v/release/VictoriaMetrics-Community/homeassistant-addon-victoriametrics?sort=semver&display_name=release&logo=github&labelColor=gray&color=gray&link=https%3A%2F%2Fgithub.com%2FVictoriaMetrics-Community%2Fhomeassistant-addon-victoriametrics%2Freleases%2Flatest)
 [![GitHub license](https://img.shields.io/github/license/VictoriaMetrics/VictoriaMetrics.svg)](https://github.com/VictoriaMetrics-Community/homeassistant-addon-victoriametrics/blob/main/LICENSE) [![Slack](https://img.shields.io/badge/join%20slack-%23victoriametrics-brightgreen.svg)](https://slack.victoriametrics.com/) [![Twitter Follow](https://img.shields.io/twitter/follow/VictoriaMetrics?style=social)](https://x.com/VictoriaMetrics) [![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/VictoriaMetrics?style=social)](https://www.reddit.com/r/VictoriaMetrics/) [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat-squeare&logo=telegram&logoColor=white)](https://t.me/VictoriaMetrics_en)
 
 [VictoriaLogs](https://docs.victoriametrics.com/victorialogs/) is [open source](https://github.com/VictoriaMetrics/VictoriaMetrics/tree/master/app/victoria-logs) user-friendly database for logs from [VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics/).
